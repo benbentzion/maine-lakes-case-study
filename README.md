@@ -22,7 +22,7 @@ The scientific algorithms, machine-learning research, remote-sensing methodology
 |---|---|
 | **Type** | Environmental research platform / data dashboard / geospatial web application |
 | **Role** | Web Application Architect & Full-Stack Developer |
-| **Project context** | Dr. Ofir Tal’s research project, University of Maine, School of Marine Sciences |
+| **Project context** | Dr. Ofir Tal's research project, University of Maine, School of Marine Sciences |
 | **Status** | Production at [lakesmonitoring.com](https://lakesmonitoring.com) |
 | **Application stack** | Angular 17 · TypeScript · Angular Material · deck.gl · MapLibre GL · ECharts · FastAPI · MongoDB |
 | **Integrated research outputs** | Field records · lake polygons · satellite-derived indicators · GLM model outputs · NOAA GFS forecasts |
