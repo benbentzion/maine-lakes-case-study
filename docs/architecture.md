@@ -24,4 +24,4 @@ The serving layer (FastAPI) is read-only against processed data — it does not 
 
 The interactive map covers 2,807 lake polygons. A naive approach — loading all polygons at once or running bounding-box queries — would produce slow initial loads and poor zoom-level performance.
 
-The approach: lake polygons are stored with spatial indexing and served at appropriate detail levels for the current map zoom. The frontend uses MapLibre GL's vector tile rendering for the base map layer, with Deck.gl overlays for satellite and model heatmap layers that need dynamic data binding. This keeps the geospatial interface responsive even when users pan across the full state or switch between spatial data layers.
+The approach: lake polygons are stored with spatial indexing and served at appropriate detail levels for the current map zoom. The frontend uses MapLibre GL's vector tile rendering for the base map layer, with deck.gl overlays for satellite and model heatmap layers that need dynamic data binding. This keeps the geospatial interface responsive even when users pan across the full state or switch between spatial data layers.
